@@ -16,6 +16,12 @@ RUN apt-get update && apt-get install -y \
     nano \
     && rm -rf /var/lib/apt/lists/*
 
+# Nuevas herramientas
+RUN apt-get update && apt-get install -y \
+    gnuplot \
+    valgrind \
+    && rm -rf /var/lib/apt/lists/*
+
 # Crear usuario no-root
 RUN useradd -m -s /bin/bash user
 USER user
