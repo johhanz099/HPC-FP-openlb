@@ -19,7 +19,6 @@ RUN apt-get update && apt-get install -y \
 # Nuevas herramientas
 RUN apt-get update && apt-get install -y \
     gnuplot \
-    valgrind \
     && rm -rf /var/lib/apt/lists/*
 
 # Crear usuario no-root
