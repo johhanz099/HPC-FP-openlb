@@ -1,3 +1,8 @@
+# Para contruir y correr con Docker
+#   docker build -t name-image .
+#   docker run -it --rm -v $(pwd):/workspace name-image
+
+
 # Dockerfile básico para compilar y usar OpenLB
 FROM ubuntu:22.04
 
