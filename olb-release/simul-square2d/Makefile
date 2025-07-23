@@ -5,6 +5,7 @@ include $(OLB_ROOT)/default.mk
 # Direactorios
 DAT = data
 FIG = fig
+TMP = tmp
 
 run_simul: $(EXAMPLE)
 	@echo
@@ -21,6 +22,8 @@ metrics: $(EXAMPLE)
 
 clean_simul:
 	@echo "Cleaning /$(DAT)"
-	rm -f $(DAT)/*.log $(DAT)/*.csv
+	rm -rf $(DAT)
+	@echo "Cleaning /$(FIG)"
+	rm -rf $(FIG)
 	@echo "Cleaning /$(TMP)"
-	rm -f $(FIG)/*.png
+	rm -rf $(TMP)
