@@ -64,8 +64,8 @@ Afterward, you can enter one of the example directories:
 
 - cd olb-release/simul-square2d
 
-- cd olb-release/examples/laminar/cylinder3d
-
+- cd olb-release/examples/laminar/cylinder3d (This code was left in the examples folder because it required other examples to run.)
+  
 Inside these directories, make sure to run make initially, and then you can execute the desired Makefile target.
 
 Note: When running an example, OpenLB automatically generates simulation files inside the tmp folder, where you will find files for visualizing the simulation. The .vtk files can be opened with ParaView for visualization.
