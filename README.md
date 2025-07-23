@@ -3,6 +3,7 @@
 Welcome to the **OpenLB Parallelization Study** repository. In this project, we explore and benchmark OpenLB examples by modifying geometries in two laminar examples, integrating MPI, and measuring parallel performance (speedup and efficiency).
 
 ## Repository Structure
+```text
 
 ├── olb-release/ # OpenLB source and examples
   ├── config.mk # MPI-enabled configuration
@@ -16,6 +17,7 @@ Welcome to the **OpenLB Parallelization Study** repository. In this project, we 
     ├── cylinder3d/ # 3D wing-profile example
       ├── Makefile
       └── [output dirs] # tmp/, data/, fig/
+``` 
 
 ## Features
 
