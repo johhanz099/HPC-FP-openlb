@@ -11,11 +11,19 @@ Welcome to the **OpenLB Parallelization Study** repository. In this project, we 
   ├── src/ # source files
   └── simul-square2d/ # 2D square-obstacle example
     ├── Makefile
+    ├── cylinder2d.cpp
+    ├── run.sh
+    ├── metrics.gp
     └── [output dirs] # tmp/, data/, fig/
   ├── examples/
    ├── laminar/
     ├── cylinder3d/ # 3D wing-profile example
       ├── Makefile
+      ├── cylinder3d.cpp
+      ├── cylinder3d.h
+      ├── cylinder3d.stl # Wing profile
+      ├── run.sh
+      ├── metrics.gp
       └── [output dirs] # tmp/, data/, fig/
 ``` 
 
