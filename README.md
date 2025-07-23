@@ -34,7 +34,8 @@ Welcome to the **OpenLB Parallelization Study** repository. In this project, we 
 
 ## Docker file
 
-Para construir y correr con Docker
+To build and run with Docker
+
 - docker build -t name-image .
 - docker run -it --rm -v $(pwd):/workspace name-image
 
