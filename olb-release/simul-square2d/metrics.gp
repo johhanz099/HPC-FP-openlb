@@ -10,8 +10,8 @@ T1 = STATS_min
 #
 set terminal pngcairo size 800,600 enhanced font "Arial,14"
 set output "fig/speedup.png"
-set title "Speedup vs Number of Processes"
-set xlabel "Number of processes (p)"
+set title "Speedup vs Número de procesos"
+set xlabel "Número de procesos (p)"
 set ylabel "Speedup = T₁ / Tₚ"
 set grid
 f_ideal(p) = p
@@ -29,9 +29,9 @@ set output
 #
 set terminal pngcairo size 800,600 enhanced font "Arial,14"
 set output "fig/efficiency.png"
-set title "Efficiency vs Number of Processes"
-set xlabel "Number of processes (p)"
-set ylabel "Efficiency = (T₁/Tₚ)/p"
+set title "Eficiencia vs Número de procesos"
+set xlabel "Número de procesos (p)"
+set ylabel "Eficiencia = (T₁/Tₚ)/p"
 set grid
 
 g_ideal(p) = 1.0
